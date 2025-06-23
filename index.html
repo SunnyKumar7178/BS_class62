@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container bg-light">
+        <div class="row">
+            <div class="col-6">
+                <p class="h3 text-center text-primary">Registration Form</p>
+            </div>
+        </div>
+        <form action="" method="get">
+        <div class="row">
+            <div class="col-6">
+                <div class="mb-3">
+                    <label for="fname" class="form-label fw-bold">First name</label>
+                    <input type="text" name="fname" id="fname" class="form-control" placeholder="Enter first name " required>
+                </div>
+                <div class="mb-3">
+                    <label for="lname" class="form-label fw-bold">Last name</label>
+                    <input type="text" name="lname" id="lname" class="form-control" placeholder="Enter last name " required>
+                </div>
+                <div class="mb-3">
+                    <label for="uname" class="form-label fw-bold">User name</label>
+                    <input type="text" name="uname" id="uname" class="form-control" placeholder="Enter user name " required>
+                </div>
+                <div class="mb-3">
+                    <label for="pass" class="form-label fw-bold">Password</label>
+                    <input type="password" name="pass" id="pass" class="form-control" placeholder="Enter user id Password " required>
+                </div>
+                <span class="form-text">password must be contain a special character</span>
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-bold">Email</label>
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email " required>
+                </div>
+                <div class="mb-3">
+                    <label for="resume" class="form-label fw-bold">Upload reasume</label>
+                    <input type="file" name="resume" id="resume" class="form-control" placeholder="upload your resume" required>
+                </div>
+                <div class="mb-3">
+                    <label for="gender" class="form-label fw-bold">Gender</label>
+                    <br>
+                    <input type="radio" name="gen" id="gender" class=" form-check-input" required>
+                    <label for="gender" class="form-check-label">Male</label>
+                    <br>
+                    <input type="radio" name="gen" id="female" class=" form-check-input" required>
+                    <label for="female" class="form-check-label">Female</label>
+                </div>
+                <div class="mb-3">
+                    <label for="skill" class="form-check-label fw-bold">Skill</label>
+                    <input type="checkbox" name="skill" id="skill" class="form-check-input" required>
+                    <label for="skill">HTML</label>
+                    <input type="checkbox" name="skill" id="css" class="form-check-input" required>
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="skill" id="sb" class="form-check-input" required>
+                    <label for="sb">Spring Boot</label>
+                    <input type="checkbox" name="skill" id="bs" class="form-check-input" required>
+                    <label for="bs">Bootstrap</label>
+                    <input type="checkbox" name="skill" id="js" class="form-check-input" required>
+                    <label for="js">Java script</label>
+                </div>
+                <div class="mb-3">
+                    <label for="city" class="form-label fw-bold">City</label>
+                    <select name="city" id="city">
+                        <option value="Bombay">Bombay</option>
+                        <option value="kolkata">kolkata</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Bengluru">Bengluru</option>
+                        <option value="Noida">Noida</option>
+                    </select>
+                    
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Submit Form</button>   
+                    <button type="reset" class="btn btn-danger">Cancle Form</button>
+                    
+
+                </div>
+                
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
